@@ -170,7 +170,6 @@ weekly_plan = [
 def create_plan_csv(start_date, weeks_plan, filename='career_growth_plan_16_weeks.csv'):
     with open(filename, mode='w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(['Subject', 'Start Date', 'Start Time', '
         writer.writerow(['Subject', 'Start Date', 'Start Time', 'Duration (Minutes)'])
 
         current_date = start_date
